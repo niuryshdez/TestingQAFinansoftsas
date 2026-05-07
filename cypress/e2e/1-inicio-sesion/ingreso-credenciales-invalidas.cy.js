@@ -1,3 +1,4 @@
+// Módulo: Inicio de Sesión | TC-IS-02 | Credenciales inválidas deben mostrar mensaje de error
 describe('Validar mensaje de error al ingresar credenciales inválidas', () => {
 
     beforeEach(() => {

@@ -1,3 +1,4 @@
+// Módulo: Inicio de Sesión | TC-IS-03 | Espacios al inicio/fin del usuario deben ser ignorados
 describe('Validar tolerancia de espacios en blanco inicio- final en el campo Usuario durante login', () => {
 
     beforeEach(() => {

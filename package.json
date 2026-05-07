@@ -1,13 +1,16 @@
 {
   "name": "testingqafinansoftsas",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Suite de pruebas E2E para el sistema Y2K de FinansoftSAS",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:open": "cypress open",
+    "test": "cypress run",
+    "test:login": "cypress run --spec \"cypress/e2e/1-inicio-sesion/**\"",
+    "test:password": "cypress run --spec \"cypress/e2e/2-restablecer-contrasena/**\"",
+    "test:headed": "cypress run --headed",
+    "test:chrome": "cypress run --browser chrome"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Niurys Hernandez",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^15.9.0"

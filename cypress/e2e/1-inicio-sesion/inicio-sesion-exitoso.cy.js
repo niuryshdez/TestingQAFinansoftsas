@@ -1,3 +1,4 @@
+// Módulo: Inicio de Sesión | TC-IS-01 | Credenciales válidas deben redirigir al dashboard
 describe('Validar inicio de sesión exitoso con credenciales válidas', () => {
 
     beforeEach(() => {

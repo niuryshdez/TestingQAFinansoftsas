@@ -1,3 +1,4 @@
+// Módulo: Inicio de Sesión | TC-IS-04 | Acceso directo al dashboard sin sesión debe ser bloqueado
 describe('Validar restricción de acceso al dashboard sin autenticación mediante URL directa', () => {
 
     beforeEach(() => {
